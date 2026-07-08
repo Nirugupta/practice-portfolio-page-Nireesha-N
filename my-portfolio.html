@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nireesha - Portfolio Profile</title>
+    <title>My Portfolio Profile</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -17,23 +17,37 @@
     <main>
       <section id="about">
         <h2>About Me</h2>
-        <p>
-          Hi, I'm Nireesha! I am passionate about building clean, efficient
-          software and learning new development technologies. I love breaking
-          down complex problems, writing clean code, and creating seamless user
-          experiences. Outside of coding, I enjoy playing pickleball and meeting
-          new people.
-        </p>
+        <div class="about-content">
+          <img
+            src="images.jpeg"
+            alt="Nireesha Narendula Profile Picture"
+            class="profile-pic"
+          />
+          <div class="about-text">
+            <p>
+              Hi, I'm Nireesha! I am passionate about building clean, efficient
+              software and learning new development technologies. I love
+              breaking down complex problems, writing clean code, and creating
+              seamless user experiences.
+            </p>
+            <p>
+              Outside of coding, you can usually find me playing pickleball or
+              diving into a great book.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section id="skills">
         <h2>Core Skills & Technologies</h2>
-        <div class="skills-grid">
-          <div class="skill-card">Java</div>
-          <div class="skill-card">HTML5 & CSS3</div>
-          <div class="skill-card">JavaScript</div>
-          <div class="skill-card">SQL</div>
-        </div>
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+          <li>React</li>
+          <li>Spring</li>
+        </ul>
       </section>
 
       <section id="projects">
@@ -41,15 +55,18 @@
         <div class="project-card">
           <h3>Portfolio Profile Page</h3>
           <p>
-            A responsive personal profile page built using semantic HTML and
-            custom CSS grid layouts.
+            A responsive personal profile page built using semantic HTML, custom
+            CSS grid layouts, and smooth transition animations.
           </p>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2026 Nireesha Narendula. Built from scratch.</p>
+      <p>
+        &copy; 2026 Nireesha Narendula. |
+        <a href="https://github.com" target="_blank">GitHub Profile</a>
+      </p>
     </footer>
   </body>
 </html>
